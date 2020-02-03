@@ -259,3 +259,9 @@ for (i=0;i<DIM;i++)
    {	x[la+j+i*tiling] = a[j][i]; }
 /*********************************************************/
 
+}
+/* Function: mdlTerminate =====================================================
+ * Abstract:
+ *    No termination needed, but we are required to have this routine.
+ */
+
