@@ -259,26 +259,3 @@ for (i=0;i<DIM;i++)
    {	x[la+j+i*tiling] = a[j][i]; }
 /*********************************************************/
 
-}
-/* Function: mdlTerminate =====================================================
- * Abstract:
- *    No termination needed, but we are required to have this routine.
- */
-static void mdlTerminate(SimStruct *S)
-{
-    real_T            *x    = ssGetRealDiscStates(S);
-	int_T io;
-	FILE *fptr;
-    fptr = fopen("C:\MATLAB6p5\work\Mother.txt","w");
-	for (io=0;io<400161;io++)
-	{fprintf(fptr,"%f \n",x[io]);}
-	fclose(fptr);
-	
-/*	UNUSED_ARG(S); /* unused input argument */
-}
-
-#ifdef  MATLAB_MEX_FILE    /* Is this file being compiled as a MEX-file? */
-#include "simulink.c"      /* MEX-file interface mechanism */
-#else
-#include "cg_sfun.h"       /* Code generation registration function */
-#endif
