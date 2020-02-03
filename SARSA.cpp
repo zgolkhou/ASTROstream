@@ -6,13 +6,6 @@
 
   Task: Maze learning. A Markov Decision Process (MDP) example.
 
-  by Andres Perez-Uribe
-     Logic Systems Laboratory 
-     Swiss Federal Institute of Technology-Lausanne
-     july, 1997
-
-  Last modification: June 2, 1998
-
   Compilation instructions:
 
   gcc -o sarsa_lambda -lm -g sarsa_lambda.c
