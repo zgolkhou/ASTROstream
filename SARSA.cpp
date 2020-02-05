@@ -250,6 +250,3 @@ void end(float Q[S][A])
 }
 
 
-
-
-
