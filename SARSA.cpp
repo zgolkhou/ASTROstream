@@ -248,5 +248,3 @@ void end(float Q[S][A])
   printf("\nA[%d] = %d",i,a_qmax);
  }
 }
-
-
