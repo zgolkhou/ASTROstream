@@ -106,7 +106,6 @@ for (i=0;i<tiling;i++)
 	   for (k=0;k<DIM;k++)
 	        q[j][k][i] = (j)*incr[k]+(i)*off[k]+mins[k];
     /* y=Cx+Du */
-/* This command computes the double gradient of the CMAC Network. */
 /*minn = q[0][2][0];
 maxx = q[n-1][2][0]*2 - q[n-2][2][0];*/
 minn = 0; maxx = 15;
