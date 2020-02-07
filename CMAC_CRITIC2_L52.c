@@ -107,7 +107,6 @@ for (i=0;i<tiling;i++)
 	        q[j][k][i] = (j)*incr[k]+(i)*off[k]+mins[k];
     /* y=Cx+Du */
 /*minn = q[0][2][0];
-maxx = q[n-1][2][0]*2 - q[n-2][2][0];*/
 minn = 0; maxx = 15;
 inc = (maxx - minn) / 10;
 mina2 = U(2) - inc; mina3 = U(3) - inc;  
