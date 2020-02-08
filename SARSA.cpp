@@ -4,8 +4,6 @@
   With replacing traces
   Action selection : e-greedy policy = f(Q values)
 
-  Task: Maze learning. A Markov Decision Process (MDP) example.
-
   Compilation instructions:
 
   gcc -o sarsa_lambda -lm -g sarsa_lambda.c
