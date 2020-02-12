@@ -21,7 +21,6 @@ static real_T off[4] = {0.002,0.002,1.5/20,1.5/20};
 
 /* Function: mdlInitializeSizes ===============================================
  * Abstract:
- *    The sizes information is used by Simulink to determine the S-function
  */
 static void mdlInitializeSizes(SimStruct *S)
 {
