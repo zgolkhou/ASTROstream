@@ -115,7 +115,6 @@ int InitState(int *x,int *y,float e[S][A])
 {
  int i,j,s;
  
- /* initial agent position = top-left region of the maze */
  
  *x = lrand48()%2 + 1;
  *y = lrand48()%3 + 1;
