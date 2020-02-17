@@ -184,7 +184,6 @@ int NextState(int *x, int *y, int a)
   int i,j;
   int s;
 
-  /* actions a={0,1,2,3} = {north,east,south,west} */
   
   switch(a) {
    case 0: if(!ENV[*y-1][*x]) 
