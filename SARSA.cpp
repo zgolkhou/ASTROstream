@@ -184,7 +184,6 @@ int NextState(int *x, int *y, int a)
   int i,j;
   int s;
 
-  
   switch(a) {
    case 0: if(!ENV[*y-1][*x]) 
             *y -= 1;
