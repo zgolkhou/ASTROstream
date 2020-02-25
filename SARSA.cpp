@@ -132,7 +132,7 @@ int select_action(float Q[S][A],int s)
 {
  int i;
  int action; 
- int a_qmax;    /* action with maximum Q value, given a certain state s */
+ int a_qmax; 
 
  a_qmax =0;
  /* find the action with maximum Q value, given a certain state s */
