@@ -38,7 +38,7 @@ static void mdlInitializeSizes(SimStruct *S)
     ssSetInputPortWidth(S, 0, 5);           /* the width of input port is 5 */
     ssSetInputPortDirectFeedThrough(S, 0, 1);
 
-    if (!ssSetNumOutputPorts(S, 1)) return; /* I have one output port*/
+    if (!ssSetNumOutputPorts(S, 1)) return; 
     ssSetOutputPortWidth(S, 0, 2);         
 
     ssSetNumSampleTimes(S, 1);
