@@ -19,7 +19,6 @@ static real_T off[4] = {0.0050,0.0050,0.0375,0.0375};
  * S-function methods *
  *====================*/
 
- */
 static void mdlInitializeSizes(SimStruct *S)
 {
     ssSetNumSFcnParams(S, 0);  /* Number of expected parameters */
