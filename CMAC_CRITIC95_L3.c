@@ -19,7 +19,6 @@ static real_T off[4] = {0.0050,0.0050,0.0375,0.0375};
  * S-function methods *
  *====================*/
 
- *    block's characteristics (number of inputs, outputs, states, etc.).
  */
 static void mdlInitializeSizes(SimStruct *S)
 {
