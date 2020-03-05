@@ -57,7 +57,6 @@ static void mdlInitializeSampleTimes(SimStruct *S)
     ssSetOffsetTime(S, 0, 0.0);
 }
 
- */
 static void mdlInitializeConditions(SimStruct *S)
 {
     real_T *x0 = ssGetRealDiscStates(S);
