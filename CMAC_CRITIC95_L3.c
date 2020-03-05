@@ -57,7 +57,6 @@ static void mdlInitializeSampleTimes(SimStruct *S)
     ssSetOffsetTime(S, 0, 0.0);
 }
 
- * Abstract:
  *    Initialize both discrete states to one.
  */
 static void mdlInitializeConditions(SimStruct *S)
