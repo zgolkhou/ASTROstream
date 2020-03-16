@@ -76,7 +76,7 @@ void main(int argc, char *argv[])
  GtotheL = 0.9095; /* Gamma to the Lambda */
 
  srand48(123456789);     
- InitQfunc(Q);           /* initialize Q lookup-table */
+ InitQfunc(Q);           
  sum_steps = 0;
  sum_failures = 0; 
  for(i=0;i<(EPISODES);i++) {
