@@ -75,7 +75,7 @@ void main(int argc, char *argv[])
  Lambda = 0.9;     /* lambda parameter in SARSA(lambda) */
  GtotheL = 0.9095; /* Gamma to the Lambda */
 
- srand48(123456789);     /* initialize random number generator */
+ srand48(123456789);     
  InitQfunc(Q);           /* initialize Q lookup-table */
  sum_steps = 0;
  sum_failures = 0; 
