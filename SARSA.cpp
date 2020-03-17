@@ -158,7 +158,7 @@ void InitQfunc(float Q[S][A])
    Q[s][a] = 0.0;
 }
 
-/* return a negative reinforcement if goal is not reached yet
+/* 
    else return zero as reinforcement */
 int reward(int x, int y, int a)
 {
