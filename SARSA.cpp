@@ -158,8 +158,6 @@ void InitQfunc(float Q[S][A])
    Q[s][a] = 0.0;
 }
 
-/* 
-   else return zero as reinforcement */
 int reward(int x, int y, int a)
 {
  if((x == G_i) && (y == G_j))
