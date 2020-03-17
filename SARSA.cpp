@@ -207,7 +207,6 @@ void UpdateQfunc(int s, int a, int r, float Q[S][A], int next_s, int next_a, flo
  int i,j;
  float TDerr;
  
- /* SARSA(Lambda) */ 
  
  /* compute TD error */
  if(next_s != -1)   
