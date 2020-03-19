@@ -18,7 +18,7 @@
 #define min(x, y)               ((x <= y) ? x : y)
 #define max(x, y)               ((x >= y) ? x : y)
 
-#define Alpha 0.1             /* learning rate */
+#define Alpha 0.1             
 #define Epsilon 0.01          
 /* size of the maze */
 #define ROW 6
