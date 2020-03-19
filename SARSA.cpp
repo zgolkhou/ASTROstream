@@ -19,8 +19,7 @@
 #define max(x, y)               ((x >= y) ? x : y)
 
 #define Alpha 0.1             /* learning rate */
-#define Epsilon 0.01          /* percentage of exploration */ 
-
+#define Epsilon 0.01          
 /* size of the maze */
 #define ROW 6
 #define COL 7
