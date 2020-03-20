@@ -129,7 +129,7 @@ for (i=0;i<tiling;i++)
 	 a_optim[i][k] = j;
 	}
 
-for (ij=0;ij<RES;ij++)     /* Notice to abstraction */
+for (ij=0;ij<RES;ij++)     
 {   DIMc = 4; 
    for (ii=0;ii<RES;ii++) 
    {   in[2] = us2[ii];  
