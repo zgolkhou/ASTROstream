@@ -98,8 +98,6 @@ for (i=0;i<tiling;i++)
     /* y=Cx+Du */
 /* function d = delta(Q,q,x,2,3) */
 /* This command computes the double gradient of the CMAC Network. */
-/*minn = q[0][2][0];
-*/
 minn = 0; maxx = 15;
 inc = (maxx - minn) / 10;
 mina2 = U(2) - inc; mina3 = U(3) - inc;  
