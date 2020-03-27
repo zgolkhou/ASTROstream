@@ -272,7 +272,7 @@ static void mdlTerminate(SimStruct *S)
 }
 
 #ifdef  MATLAB_MEX_FILE    
-#include "simulink.c"      /* MEX-file interface mechanism */
+#include "simulink.c"      
 #else
 #include "cg_sfun.h"       /* Code generation registration function */
 #endif
