@@ -156,7 +156,7 @@ for (i=0;i<tiling;i++)
 	y_optim+=x[Locate_Q_optim];
 }
 Q_table_optim[ii][ij] = y_optim; 
-   } /* end related to ii */
+   } 
 }    /* end related to iJ */    
 /* Search for optimal action at Q_table_optim */
    for (j=0;j<RES;j++)
