@@ -157,7 +157,7 @@ for (i=0;i<tiling;i++)
 }
 Q_table_optim[ii][ij] = y_optim; 
    } 
-}    /* end related to iJ */    
+}     
 /* Search for optimal action at Q_table_optim */
    for (j=0;j<RES;j++)
    {   optimal_action_c = 1000000000; 
