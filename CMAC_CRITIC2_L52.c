@@ -148,7 +148,6 @@ for (i=0;i<tiling;i++)
 	 a_optim[i][k] = j;
 	} 
 DIMc = 3; 	
-/*function [y,a] = comput(Q,q,x) */
 y_optim = 0;
 for (i=0;i<tiling;i++)
 {   k0 = a_optim[i][0]; k1 = a_optim[i][1]; k2 = a_optim[i][2]; k3 = a_optim[i][3];
