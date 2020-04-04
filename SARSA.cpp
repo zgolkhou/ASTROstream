@@ -24,7 +24,7 @@
 #define ROW 6
 #define COL 7
 
-#define A 4           /* number of actions */
+#define A 4           
 #define S 16          /* number of states */
 
 /* Goal */
