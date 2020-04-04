@@ -187,7 +187,7 @@ if (mina3 > maxx)
 if (maxa3 < minn)
     y[1] = 0; 
 /*y[0] = row_optimal_action; 
-y[1] = columb_optimal_action;
+
 /***************************************************************/
 }
 
