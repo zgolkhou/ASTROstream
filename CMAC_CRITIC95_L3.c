@@ -228,7 +228,7 @@ Q_sp_ap = y;
 /* This command train the CMAC network using the TD-error. */
 tar = gamma * Q_sp_ap + U(4);                     /* tar is the Temporal Difference error */
 cur = x[Size_state_extra_Q];                      /* cur : Q(s,a) */ 
-diff = (tar - cur) * alpha / tiling;              /* Q_sp_ap : Q(s',a')  /U(4) : Reward */ 
+diff = (tar - cur) * alpha / tiling;              
 /* This part convert a part of state vector to matrix of activation location. */
 for (i=0;i<DIM;i++)
     for (j=0;j<tiling;j++)
