@@ -168,7 +168,7 @@ for (i=0;i<RES;i++)
         row_optimal_action = row_optimal_action_allc[i];
 	 }
 
-y[0] = us2[row_optimal_action];               /* optimal_action_e : y[0] */
+y[0] = us2[row_optimal_action];               
 y[1] = us3[columb_optimal_action];            /* optimal_action_f : y[1] */
 if (mina2 > maxx)
    y[0] = 15;
