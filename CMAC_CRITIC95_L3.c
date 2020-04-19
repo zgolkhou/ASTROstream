@@ -169,7 +169,7 @@ for (i=0;i<RES;i++)
 	 }
 
 y[0] = us2[row_optimal_action];               
-y[1] = us3[columb_optimal_action];            /* optimal_action_f : y[1] */
+y[1] = us3[columb_optimal_action];           
 if (mina2 > maxx)
    y[0] = 15;
 if (maxa2 < minn)
