@@ -72,7 +72,7 @@ static void mdlInitializeConditions(SimStruct *S)
 
 /* Function: mdlOutputs =======================================================
  * Abstract:
- *      y = Cx + Du 
+ *      
  */
 static void mdlOutputs(SimStruct *S, int_T tid)
 {
