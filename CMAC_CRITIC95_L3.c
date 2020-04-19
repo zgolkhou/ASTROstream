@@ -72,7 +72,6 @@ static void mdlInitializeConditions(SimStruct *S)
 
 /* Function: mdlOutputs =======================================================
  * Abstract:
- *      
  */
 static void mdlOutputs(SimStruct *S, int_T tid)
 {
