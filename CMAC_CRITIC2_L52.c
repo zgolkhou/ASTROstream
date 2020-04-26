@@ -221,7 +221,7 @@ for (i=0;i<tiling;i++)
 	 {	    j = j - 1;  }
 	 a[i][k] = j;
 	}
-/* fuction [y,a] = compute(Q,q,x) */
+/*  */
 /* This command computes the output of a CMAC neural network. */
 for (i=0;i<tiling;i++)
 {   k0 = a[i][0]; k1 = a[i][1]; k2 = a[i][2]; k3 = a[i][3];
