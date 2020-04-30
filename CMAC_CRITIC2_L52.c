@@ -98,7 +98,7 @@ real_T optimal_action_c,optimal_action_allc[20],optimal_action;
 int_T i,j,k;
 int_T m1234=n*n*n*tiling, m234=n*n*tiling, m34=n*tiling, m4=tiling;
 
-    UNUSED_ARG(tid); /* not used in single tasking mode */
+    UNUSED_ARG(tid); 
 for (i=0;i<tiling;i++)
 	for (j=0;j<n;j++)
 	   for (k=0;k<DIM;k++)
