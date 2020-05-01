@@ -249,6 +249,7 @@ for (i=0;i<DIM;i++)
 /* Function: mdlTerminate =====================================================
  * Abstract:
  *    No termination needed, but we are required to have this routine.
+ *
  */
 
 static void mdlTerminate(SimStruct *S)
