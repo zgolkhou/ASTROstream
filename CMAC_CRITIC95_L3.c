@@ -186,7 +186,7 @@ y[1] = columb_optimal_action;
 #define MDL_UPDATE
 /* Function: mdlUpdate ======================================================
  * Abstract:
- *      x(t+1) = Ax(t) + Bu(t)
+ *    x(t+1) = Ax(t) + Bu(t)
  */
 static void mdlUpdate(SimStruct *S, int_T tid)
 {
