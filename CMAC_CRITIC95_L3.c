@@ -263,7 +263,7 @@ static void mdlTerminate(SimStruct *S)
 	{fprintf(fptr,"%f \n",x[io]);}
 	fclose(fptr);
 	
-/*	UNUSED_ARG(S); /* unused input argument */
+/*	UNUSED_ARG(S); /*  unused input argument  */
 }
 
 #ifdef  MATLAB_MEX_FILE    /* Is this file being compiled as a MEX-file? */
