@@ -207,7 +207,8 @@ for (i=0;i<tiling;i++)
 	        q[j][k][i] = (j)*incr[k]+(i)*off[k]+mins[k];
 /* x(t+1) = Ax(t)+Bu(t) */
 /* function a = activate(q,x) */
-/* This command computes the activation for a CMAC neural network with particular inputs. */
+/* This command computes the activation for a 
+CMAC neural network with particular inputs. */
 for (i=0;i<tiling;i++)
 	for (k=0;k<4;k++)
 	{ j = n-1;
