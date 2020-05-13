@@ -255,18 +255,7 @@ for (i=0;i<DIM;i++)
 /* Function: mdlTerminate =====================================================
  * Abstract:
  */
-static void mdlTerminate(SimStruct *S)
-{
-    real_T            *x    = ssGetRealDiscStates(S);
-	int_T io;
-	FILE *fptr;
-    fptr = fopen("C:\MATLAB6p5\work\Mother.txt","w");
-	for (io=0;io<200081;io++)
-	{fprintf(fptr,"%f \n",x[io]);}
-	fclose(fptr);
-	
-/* */
-}
+
 
 #ifdef  MATLAB_MEX_FILE    
 #include "simulink.c"      
