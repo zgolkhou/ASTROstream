@@ -8,7 +8,7 @@
 #include "simstruc.h"
 #include "stdio.h"
 
-#define U(element) (*uPtrs[element])  
+#define  U(element) (*uPtrs[element])  
 
 static real_T mins[4] = {-0.2,-0.2,0,0};
 static real_T sizes[4] = {0.4,0.4,15,15};
