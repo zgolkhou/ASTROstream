@@ -1,4 +1,4 @@
-/*  File    : CMAC_CRITIC95_L3.c
+/*  File   : CMAC_CRITIC95_L3.c
 /*  This S_function is a CMAC(Cerebullar Modeling Articulation Controller) Network. 
 /*  It play a role of Critic at system.                                        */ 
 
