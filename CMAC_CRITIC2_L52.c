@@ -265,7 +265,7 @@ static void mdlTerminate(SimStruct *S)
 	{fprintf(fptr,"%f \n",x[io]);}
 	fclose(fptr);
 	
-/* comment: add more efficient search */
+/* comment:  add more efficient search */
 }
 
 #ifdef  MATLAB_MEX_FILE    
