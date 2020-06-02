@@ -78,7 +78,7 @@ static void mdlOutputs(SimStruct *S, int_T tid)
     real_T            *x    = ssGetRealDiscStates(S);
     InputRealPtrsType uPtrs = ssGetInputPortRealSignalPtrs(S,0); /* second argument is 0 */
 int_T  tiling=40,n=10,DIM=4,RES=20;
-int_T  Size_state_Q=400000, Size_state_extra_Q=400160;
+int_T  Size_state_Q=400000, Size_state_extra_Q=4001;
 real_T alpha=0.9,gamma=0.95;
 int_T  jp2=0,jp3=0,ij,ii,a_optim[40][4],Locate_Q_optim,y_optim,DIMc,k0,k1,k2,k3;
 real_T minn,maxx,inc,mina2,ifloat2,ifloat3,Q_table_optim[20][20];
