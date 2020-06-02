@@ -10,7 +10,7 @@
 
 #define U(element) (*uPtrs[element])  /* Pointer to Input Port0 */
 
-static real_T mins[4] = {-1,-1,0,0};
+static real_T mins[4] = {-1,-1,0};
 static real_T sizes[4] = {2,2,15,15};
 static real_T incr[4] = {0.2,0.2,1.5};
 static real_T off[4] = {0.0050,0.0050,0.0375};   	
