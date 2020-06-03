@@ -150,7 +150,7 @@ Q_table_optim[ii][ij] = y_optim;
 }     
 
    for (j=0;j<RES;j++)
-   {   optimal_action_c = 1000000; 
+   {   optimal_action_c = 100000; 
 	   for (i=0;i<RES;i++)
 	      if (optimal_action_c > Q_table_optim[i][j])
 	   {      optimal_action_c = Q_table_optim[i][j];
