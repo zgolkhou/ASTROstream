@@ -243,6 +243,7 @@ for (i=0;i<tiling;i++)
     Locate_Q_past = h0*m1234+h1*m234+h2*m34+h3*m4+i;
     x[Locate_Q_past] = x[Locate_Q_past] + diff;
 }
+x[Size_state_extra_Q] = Q_sp_ap; 
 
 /*********************************************************/
 
