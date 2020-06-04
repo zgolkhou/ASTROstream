@@ -247,7 +247,8 @@ x[Size_state_extra_Q] = Q_sp_ap;
 /**/
 /* This part is for convert matrix 'a' to vector. */
 for (i=0;i<DIM;i++)
-
+   for (j=0;j<tiling;j++)
+   {	x[la+j+i*tiling] = a[j][i]; }
 /*********************************************************/
 
 }
