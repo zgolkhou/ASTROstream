@@ -243,12 +243,7 @@ for (i=0;i<tiling;i++)
     Locate_Q_past = h0*m1234+h1*m234+h2*m34+h3*m4+i;
     x[Locate_Q_past] = x[Locate_Q_past] + diff;
 }
-x[Size_state_extra_Q] = Q_sp_ap; 
-/**/
-/* This part is for convert matrix 'a' to vector. */
-for (i=0;i<DIM;i++)
-   for (j=0;j<tiling;j++)
-   {	x[la+j+i*tiling] = a[j][i]; }
+
 /*********************************************************/
 
 }
