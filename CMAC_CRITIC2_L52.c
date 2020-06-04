@@ -244,6 +244,9 @@ for (i=0;i<tiling;i++)
     x[Locate_Q_past] = x[Locate_Q_past] + diff;
 }
 x[Size_state_extra_Q] = Q_sp_ap; 
+/**/
+/* This part is for convert matrix 'a' to vector. */
+for (i=0;i<DIM;i++)
 
 /*********************************************************/
 
